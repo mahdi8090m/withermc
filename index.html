@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wither Mine</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#0d0d0d;
+color:white;
+text-align:center;
+}
+
+header{
+background:url("https://i.imgur.com/8hQxG5N.jpeg") center/cover;
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+h1{
+font-size:60px;
+color:#8a2be2;
+text-shadow:0 0 20px cyan;
+}
+
+p{
+font-size:22px;
+}
+
+button{
+padding:15px 30px;
+font-size:20px;
+background:#8a2be2;
+border:none;
+color:white;
+border-radius:10px;
+cursor:pointer;
+margin:10px;
+}
+
+section{
+padding:50px 20px;
+}
+
+.rank{
+background:#1b1b1b;
+padding:20px;
+margin:15px;
+border-radius:15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>WITHER MINE</h1>
+<p>Best Minecraft Server</p>
+
+<button onclick="copyIP()">کپی آی‌پی سرور</button>
+
+<p id="ip">play.whitermine.ir</p>
+
+</header>
+
+<section>
+<h2>اخبار سرور</h2>
+
+<p>به زودی اخبار جدید اینجا قرار می‌گیرد.</p>
+</section>
+
+<section>
+
+<h2>رنک‌ها</h2>
+
+<div class="rank">VIP</div>
+
+<div class="rank">MVP</div>
+
+<div class="rank">LEGEND</div>
+
+</section>
+
+<script>
+
+function copyIP(){
+
+navigator.clipboard.writeText("play.whitermine.ir");
+
+alert("IP کپی شد!");
+
+}
+
+</script>
+
+</body>
+</html>
